@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/home/iceman/Developer/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/iceman/Developer/Android/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/iceman/Developer/projects/flutter/flutter_blue_plus/packages/flutter_blue_plus/example/android/app/.cxx/RelWithDebInfo/38p73922/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/iceman/Developer/Android/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/iceman/Developer/projects/flutter/flutter_blue_plus/packages/flutter_blue_plus/example/android/app/.cxx/RelWithDebInfo/38p73922/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

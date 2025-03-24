@@ -1,0 +1,2 @@
+/home/iceman/Developer/projects/flutter/flutter_blue_plus/packages/flutter_blue_plus/example/android/app/.cxx/RelWithDebInfo/38p73922/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/iceman/Developer/projects/flutter/flutter_blue_plus/packages/flutter_blue_plus/example/android/app/.cxx/RelWithDebInfo/38p73922/arm64-v8a/CMakeFiles/rebuild_cache.dir

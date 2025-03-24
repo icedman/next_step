@@ -1,0 +1,1 @@
+/home/iceman/Developer/projects/flutter/flutter_blue_plus/packages/flutter_blue_plus/example/build/app/intermediates/cxx/RelWithDebInfo/38p73922/obj/x86_64
