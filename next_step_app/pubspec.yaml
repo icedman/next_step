@@ -9,14 +9,11 @@ environment:
   sdk: ^3.0.0
 
 dependencies:
-  audioplayers: ^6.4.0
   flutter:
     sdk: flutter
 
-  flutter_blue_plus:
-    # Note: We use a path dependency because the example app & plugin are bundled together.
-    # In *your* app you should use ^1.17.3 or similar
-    path: ../
+  flutter_blue_plus: ^1.35.3
+  flutter_markdown: ^0.7.6+2
 
 dev_dependencies:
   flutter_launcher_icons: "^0.14.3"
@@ -26,20 +23,6 @@ flutter_launcher_icons:
   ios: true
   image_path: "assets/images/next-step-icon.jpeg"
   min_sdk_android: 21 # android min sdk min:16, default 21
-
-dependency_overrides:
-  # Note: We use these dependency overrides to test the example app with the latest changes.
-  # In *your* app you should not add these overrides
-  flutter_blue_plus_android:
-    path: ../../flutter_blue_plus_android
-  flutter_blue_plus_darwin:
-    path: ../../flutter_blue_plus_darwin
-  flutter_blue_plus_linux:
-    path: ../../flutter_blue_plus_linux
-  flutter_blue_plus_platform_interface:
-    path: ../../flutter_blue_plus_platform_interface
-  flutter_blue_plus_web:
-    path: ../../flutter_blue_plus_web
 
 flutter:
   uses-material-design: true

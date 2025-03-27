@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 
 import "../utils/snackbar.dart";
+import "../screens/info_screen.dart";
 
 import "descriptor_tile.dart";
 
@@ -187,6 +188,24 @@ class _CharacteristicTileState extends State<CharacteristicTile> {
         });
   }
 
+  Widget buildHelpButton(BuildContext context) {
+    // bool isNotifying = widget.characteristic.isNotifying;
+    return TextButton(
+        // child: Text(isNotifying ? "Unsubscribe" : "Subscribe"),
+        child: Text("Help"),
+        onPressed: () async {
+
+          MaterialPageRoute route = MaterialPageRoute(
+          builder: (context) => InfoScreen(),
+          settings: RouteSettings(name: '/InfoScreen'));
+          Navigator.of(context).push(route);
+
+          if (mounted) {
+            setState(() {});
+          }
+        });
+  }
+
   Widget buildButtonRow(BuildContext context) {
     bool read = widget.characteristic.properties.read;
     bool write = widget.characteristic.properties.write;
@@ -198,6 +217,7 @@ class _CharacteristicTileState extends State<CharacteristicTile> {
         if (read) buildReadButton(context),
         if (write) buildWriteButton(context),
         if (notify || indicate) buildSubscribeButton(context),
+        if (notify || indicate) buildHelpButton(context),
       ],
     );
   }
