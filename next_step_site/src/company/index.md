@@ -59,7 +59,7 @@ title: Our Company
   </div>
 </div>
 
-<h3 class="text-2xl font-semibold text-center text-gray-800 mb-4">Additional Information</h3>
+<h3 class="text-2xl font-semibold text-center text-gray-800 mb-4">Consultants</h3>
 
 <div class="ml-28">
 <div class="flex items-center space-x-4 p-4">
