@@ -1,0 +1,13 @@
+links:
+  - title: Our Product
+    url: "/product"
+    desc: Learn more about the innovative features and benefits of our product.
+  - title: Our Commitment
+    url: "/commitment"
+    desc: Discover our dedication to quality, sustainability, and customer satisfaction.
+  - title: Our Company
+    url: "/company"
+    desc: Get to know more about who we are and our company’s mission.
+  - title: Contact Us
+    url: "/contact"
+    desc: Reach out to us for inquiries, support, or any questions you may have.

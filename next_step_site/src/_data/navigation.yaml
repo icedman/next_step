@@ -1,0 +1,12 @@
+---
+items:
+  - text: Our Product
+    url: "/product"
+  - text: Our Commitment
+    url: "/commitment"
+  - text: About Us
+    url: "/company"
+  - text: Contact
+    url: "/contact"
+  - text: Blog
+    url: "/blog"
