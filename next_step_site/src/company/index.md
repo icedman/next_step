@@ -77,6 +77,7 @@ title: Our Company
   </div>
 </div>
 <div class="flex items-center space-x-4 p-4">
-  <span class="text-xl sm:text-2xl text-gray-800">Grade 12 Fortes</span>
+    <img src="/static/img/ateneo.logo.jpeg" alt="Zachary Maagad" class="w-24 h-24 rounded-full object-cover">
+  <span class="text-xl sm:text-2xl text-gray-800">Sacred Heart - Ateneo de Cebu<br/>Grade 12 Fortes</span>
 </div>
 </div>
